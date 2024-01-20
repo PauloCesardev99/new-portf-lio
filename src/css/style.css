@@ -1,0 +1,348 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #101630;
+}
+
+section{
+    margin-top: 8em;
+}
+/* CABECALHO*/
+
+.cabecalho{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+background-color: #101630;
+color: white;
+padding: 50px;
+border-bottom: 1px solid #64bbe1;
+
+}
+
+.menu{
+    margin-top: 1em;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+}
+
+
+
+.cabecalho ul{
+margin-top: 1em; 
+}
+
+.desbloquear-menu{
+    display: block !important;
+}
+
+
+.cabecalho ul li{
+margin-top: 1em;
+text-align: center;
+}
+
+.cabecalho a{
+    color: white;
+}
+
+.cabecalho ul li a:hover{
+color: #64bce1;
+transition: 0.5s;
+cursor: pointer;
+}
+
+.logo img{
+width: 100px;
+height: auto;
+}
+
+
+.btn a{ 
+display: block;
+text-align: center;
+width: 150px;
+padding: 10px;
+margin-top: 2em;
+border-radius: 10px;
+color: white;
+background: rgb(1,137,178);
+background: linear-gradient(90deg, rgba(1,137,178,1) 54%, rgba(0,212,255,1) 100%, rgba(2,0,36,1) 100%, rgba(7,6,96,1) 100%);
+cursor: pointer;
+}
+
+.btn a:hover{
+background: rgb(1,137,178);
+background: linear-gradient(90deg, rgba(4, 194, 252, 0.719) 54%, rgba(0,212,255,1) 100%, rgb(7, 1, 117) 100%, rgb(6, 3, 170) 100%);
+;
+}
+
+/* Section principal  */
+
+
+main{
+padding: 20px;
+color: white;
+text-align: center;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.apresentacao article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apresentacao article h1{
+    font-size: 3em;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.apresentacao article .btn a{
+    width: 200px;
+    padding: 1.2em;
+}
+
+.apresentacao article:last-child img{
+    margin-bottom: 2em;
+    width: 100%;
+    border: solid 5px #64bce1;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.541);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.apresentacao p{
+padding: 5px;
+font-size: 1.2em;
+margin-top: 20px;
+line-height: 1.8em;
+}
+
+
+/* Sobre nós*/
+
+
+.sobre-nos article:first-child{
+   display: flex;
+}
+
+
+.sobre-nos article p{
+padding: 5px;
+font-size: 1.2em;
+margin-top: 10px;
+line-height: 1.5em;
+}
+
+.sobre-nos article h1{
+margin-top: 20px;
+font-size: 2em;
+}
+
+.sobre-nos-image{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    border: 5px solid #64bce1;
+
+}
+
+.sobre-nos-image img{
+    position: absolute;
+    width: 100%;
+    right: 0.5em;
+    bottom: 3em;
+    border-radius: 2em;
+}
+
+
+/*Sobre o projeto */
+
+.portfolio nav {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center
+}
+
+.portfolio nav ul{
+    display: flex;
+    gap: 1em;
+}
+
+.portfolio nav ul li a{
+    color: white;
+    font-size: 1.5em;
+
+}
+
+.portfolio nav ul li a:hover{
+    color: #64bce1;
+    transition: 0.5s;
+    cursor: pointer;
+    }
+
+
+
+.projeto h2, .projeto p, .projeto .btn, .projeto .image-projeto{
+margin-top: 30px;
+}
+
+
+.image-projeto img{
+    width: 90%;
+margin-top: 20px;
+border: 5px solid #64bce1;
+border-radius: 20px;
+
+}
+
+.projeto{
+    display: flex;
+    flex-direction: column-reverse;
+margin-top: 50px;
+}
+
+.projeto p{
+padding: 5px;
+font-size: 1.2em;
+margin-top: 10px;
+line-height: 1.5em;
+}
+
+
+.projeto .btn a{
+margin: auto;
+}
+
+
+
+/*Tecnologias*/
+
+.tecnologias div{
+    margin-top: 2em;
+}
+
+.tecnologias div h2{
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+
+/*Contato */
+
+.contato{
+padding: 10px;
+background-color: #4b53c8;
+text-align: center;
+color: white;
+
+}
+
+.contatos{
+margin-top: 30px;
+}
+
+.contatos article h3, .contatos article p,  .contatos article h2{
+margin-top: 20px;
+}
+
+
+/* Formulário*/
+
+
+.formulario{
+margin: auto;
+margin-top: 20px;
+padding: 20px 10px 20px 10px;
+background-color: #4a5aca;
+border-radius: 10px;
+    
+}
+
+.formulario div{
+margin-top: 10px;
+}
+
+.formulario div input, .formulario div textarea{
+width: 80%;
+padding: 10px;
+background-color: black;
+color: white;
+border-radius: 10px;
+}
+
+.formulario div:last-child{
+width: 40%;
+}
+
+input{
+cursor: pointer;
+}
+
+
+/* Footer*/
+
+.rodape{
+border-top: solid 0.1px rgba(255, 255, 255, 0.281);
+padding: 30px 0px 20px 0px;
+text-align: center;
+color: white;
+background-color: #4a5aca;
+}
+
+
+
+
+
+
+.redes-sociais ul li img{
+margin-top: 20px;
+cursor: pointer;
+width: 30px;
+}
+
+
+/* Botão Whatsap*/
+.btn-whatsap{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    padding: 10px;
+    animation: bounce 5s infinite;
+}
+
+.btn-whatsap img{
+width: 50px;
+}
+
+@keyframes bounce {
+
+
+
+    0% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  }
