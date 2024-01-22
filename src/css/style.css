@@ -57,9 +57,8 @@ transition: 0.5s;
 cursor: pointer;
 }
 
-.logo img{
-width: 100px;
-height: auto;
+.logo h1{
+    color: #64bbe1;
 }
 
 
@@ -117,9 +116,7 @@ text-align: center;
 .apresentacao article:last-child img{
     margin-bottom: 2em;
     width: 100%;
-    border: solid 5px #64bce1;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.541);
-    border-radius: 10px;
+    transform: scaleX(-1);
 }
 
 
@@ -185,13 +182,19 @@ font-size: 2em;
     gap: 1em;
 }
 
-.portfolio nav ul li a{
+.portfolio nav ul li {
     color: white;
     font-size: 1.5em;
 
 }
 
-.portfolio nav ul li a:hover{
+
+
+.corprojetos{
+    color: #64bce1 !important;
+}
+
+.portfolio nav ul li:hover{
     color: #64bce1;
     transition: 0.5s;
     cursor: pointer;
