@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="cabecalho">
@@ -35,10 +36,10 @@
     <main>
         <!---Apresentação-->
 
-        <section class="apresentacao">
+        <section class="apresentacao" data-aos="fade-right" data-aos-duration="2000">
 
-            <article>
-                <h1>WEB DEVELOPER FRONT-END</h1>
+            <article >
+                <h1 class="">WEB DEVELOPER FRONT-END</h1>
 
                 <div class="btn">
                  <a href="#portfolio" class="">Meu Portfólio</a >  
@@ -57,7 +58,7 @@
         </section>
         <!---Sobre nós-->
 
-        <section class="sobre-nos" id="sobrenos">
+        <section class="sobre-nos" id="sobrenos" data-aos="fade-right" data-aos-duration="2000">
 
             <article>
 
@@ -77,7 +78,7 @@
 
             <h1>PORTFÓLIO</h1>
 
-            <nav>
+            <nav data-aos="fade-right" data-aos-duration="2000">
                <ul class="portfolio">
                 <li>Landing Page</li>
                 <li>API</li>
@@ -88,33 +89,31 @@
             
         <div id="projetos">
 
-            <article class="projeto">
+            <article class="projeto"  data-aos="fade-right" data-aos-duration="2000">
 
-                <div>
-                    <h2>CODE CAFÉ</h2>
+                
+                    <div>
+                        <h2>CODE CAFÉ</h2>
 
-                    <p>A cafeteria Code café é uma empresa familiar que oferece uma variedade de alimentos e bebidas para seus clientes. A cafeteria está localizada em uma área movimentada da cidade e é popular entre os moradores locais e turistas. A cafeteria oferece um ambiente aconchegante e amigável, e os funcionários são sempre prestativos e atenciosos.</p>
+                        <p>A cafeteria Code café é uma empresa familiar que oferece uma variedade de alimentos e bebidas para seus clientes. A cafeteria está localizada em uma área movimentada da cidade e é popular entre os moradores locais e turistas. A cafeteria oferece um ambiente aconchegante e amigável, e os funcionários são sempre prestativos e atenciosos.</p>
 
-                    <div class="btn">
-                       <a href="https://paulocesardev99.github.io/cafe/" target="_blank">Veja o Projeto</a> 
+                        <div class="btn">
+                        <a href="https://paulocesardev99.github.io/cafe/" target="_blank">Veja o Projeto</a> 
+                        </div>
+                        
                     </div>
-                    
-                </div>
 
-                <div class="image-projeto">
-                    <img src="src/img/projetos/code-café.webp "alt="Code-Café">
-                </div>
-
+                    <div class="image-projeto">
+                        <img src="src/img/projetos/code-café.webp "alt="Code-Café">
+                    </div>
 
             </article>
 
 
             
-            <article class="projeto">
-
-
+            <article class="projeto"  data-aos="fade-right" data-aos-duration="2000">
                 <div>
-                    <h2>RIRO TECH ADVOGACIA</h2>
+                    <h2>RIRO TECH ADVOCACIA</h2>
 
                     <p> renomada firma de advocacia Riro Tech destaca-se no cenário jurídico por sua abordagem inovadora e especializada no campo da tecnologia. Com uma equipe de advogados altamente qualificados e apaixonados por desafios tecnológicos, a Riro Tech oferece serviços jurídicos sob medida para empresas do setor de tecnologia. </p>
 
@@ -128,14 +127,12 @@
                     <img src="src/img/projetos/Adovacia-Riro-Tech.webp" alt="advocacia-riro-tech">
                 </div>
 
-
+           
             </article>
 
 
              
-            <article class="projeto">
-
-
+            <article class="projeto"  data-aos="fade-right" data-aos-duration="2000">
                 <div>
                     <h2>CENTRO SERENIDADE MENTAL</h2>
 
@@ -151,7 +148,6 @@
                     <img src="src/img/projetos/psicologia.png" alt="Clínica Centro Serenidade ">
                 </div>
 
-
             </article>
         </div>
             <!---Projeto 2-->
@@ -163,7 +159,7 @@
 
         <!---Tecnologias-->
 
-        <section id="tech">
+        <section id="tech" data-aos="fade-right" data-aos-duration="2000">
             <h1>TECNOLOGIAS</h1>
 
             <article class="tecnologias">
@@ -209,7 +205,7 @@
 
     <div class="background-contato">
         
-    <aside class="contato" id="contato">
+    <aside class="contato" id="contato" data-aos="zoom-in" data-aos-duration="500">
 
 
         <h1>Contato</h1>
@@ -285,6 +281,8 @@
         </a>
       </div>
 
+
     <script src="src/script/index.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 </html>

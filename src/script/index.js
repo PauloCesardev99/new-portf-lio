@@ -1,4 +1,6 @@
 "use strict"
+//Biblioteca animação
+AOS.init();
 
 import  projetos_Lading_Page from "./objetos.js";
 
@@ -26,19 +28,24 @@ projetos.map((e,i)=>{
             projetos_Lading_Page.map((e,i)=>{
             const article = document.createElement("article")
             article.setAttribute("class", "projeto")
-            article.innerHTML = ` 
-                                <div>
-                                <h2> ${e.nome} </h2> 
-                                <p> ${e.descricao} </p>
+            article.setAttribute("data-aos", "fade-right")
+            article.setAttribute("data-aos-duration", "2000")
+            article.innerHTML = `
+                               
+                                    <div>
+                                        <h2> ${e.nome} </h2> 
+                                        <p> ${e.descricao} </p>
 
-                                <div class ="btn"> 
-                                <a href=" ${e.link}" target = "_blank">Veja o projeto</a>
-                                </div>
-                                </div>
+                                        <div class ="btn" > 
+                                        <a href=" ${e.link}" target = "_blank">Veja o projeto</a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class ="image-projeto"> 
+                                        <img src = "${e.imagem}" alt = "${e.nome}"
+                                    </div>
                                 
-                                <div class ="image-projeto"> 
-                                <img src = "${e.imagem}" alt = "${e.nome}"
-                                </div>
+                                
                                 `
             todos_os_projetos.appendChild(article)
             })     
@@ -48,7 +55,6 @@ projetos.map((e,i)=>{
             projetos[2].classList.remove("corprojetos")
             projetos[3].classList.remove("corprojetos")
             projetos[0].classList.remove("corprojetos")  
-            window.alert("Em obras")
         }
      })
 })

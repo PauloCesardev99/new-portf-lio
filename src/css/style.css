@@ -145,6 +145,7 @@ padding: 5px;
 font-size: 1.2em;
 margin-top: 10px;
 line-height: 1.5em;
+text-align: justify;
 }
 
 .sobre-nos article h1{
@@ -179,6 +180,8 @@ font-size: 2em;
 
 .portfolio nav ul{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     gap: 1em;
 }
 
@@ -228,6 +231,7 @@ padding: 5px;
 font-size: 1.2em;
 margin-top: 10px;
 line-height: 1.5em;
+text-align: justify;
 }
 
 

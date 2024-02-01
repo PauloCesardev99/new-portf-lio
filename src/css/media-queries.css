@@ -4,6 +4,7 @@
     .cabecalho{
         display: flex;
         flex-direction: row;
+        width: 100%;
         padding: 40px;
     }
 
@@ -92,7 +93,12 @@
         padding: 10px;
     }
 
-    
+    /* Portfólio */
+
+    .portfolio nav ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
     /* Projeto*/
 
