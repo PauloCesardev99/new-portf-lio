@@ -161,8 +161,7 @@
     .contato{
         padding: 80px 10px 50px 0px;
         border-radius: 90px 90px 0px 0px;
-        border-top: 5px solid  #64bce1;
-        background-color: #4b53c8f8;
+        border-top: 1px solid   #06f3af;
     }
 
     .background-contato{
@@ -180,7 +179,7 @@
         margin: 0px;
         width: 30%;
         box-shadow: 5px 5px 5px black;
-        border: solid 2px #64bbe193;
+        border: solid 2px  #06f3af;
     }
 
 
